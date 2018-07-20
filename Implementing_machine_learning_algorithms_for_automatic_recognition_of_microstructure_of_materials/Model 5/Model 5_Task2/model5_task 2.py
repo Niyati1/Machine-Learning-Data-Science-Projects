@@ -44,5 +44,5 @@ for train, test in k_fold:
     #scores = model.cross_val_score(f,X[test],Y[test])
     print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
     cvscores.append(scores[1] * 100)
-model.save('model10.h5')
+model.save('model 5_task2.h5')
 print("%.2f%% (+/- %.2f%%)" % (numpy.mean(cvscores), numpy.std(cvscores)))
