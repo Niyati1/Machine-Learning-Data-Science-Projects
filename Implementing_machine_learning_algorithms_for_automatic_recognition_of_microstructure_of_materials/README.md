@@ -54,5 +54,4 @@ Histogram of Oriented Gradients (HoG) was used to search for visually similar mi
 
 Looking at the results of visually similar micrographs, the important point to conclude was that even though the micrographs were visually similar, they were actually of different material type. So, a human who has no prior knowledge about the alloy microstructures would identify them as of same alloy type, but a trained neural network model was able to identify the difference in visually similar microstructures.  
 
-This gihub repository contains the code and saved weight of all trained models (.h5 file) and also the code for ISE and a detailed thesis report.
-
+This gihub repository contains the code and saved weight of all trained models (.h5 file) and also the code for ISE and a detailed thesis report. The Image Search Search engine can be executed by running the main.py file. (Pyhton 3.5 required)
