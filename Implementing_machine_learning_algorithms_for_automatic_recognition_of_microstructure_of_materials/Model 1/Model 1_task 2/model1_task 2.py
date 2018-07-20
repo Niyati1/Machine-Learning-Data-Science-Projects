@@ -42,9 +42,12 @@ for train, test in k_fold:
     model.add(Dense(512,activation='relu'))
     model.add(Dense(128,activation='relu'))
     model.add(Dense(3,activation='softmax'))
+    #compile model
     adam = optimizers.Adam(lr=0.0001, beta_1=0.9, beta_2=0.999, epsilon=2e-11, decay=0.0, amsgrad=False)
     model.compile(loss='categorical_crossentropy', optimizer=adam, metrics=['accuracy'])
+    #fit model
     model.fit(X[train], Y[train], epochs=50, batch_size=100, validation_split=0.1, verbose=2)
+    #evaluate model
     scores = model.evaluate(X[test], Y[test], verbose=2) 
     print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
     cvscores.append(scores[1] * 100)
