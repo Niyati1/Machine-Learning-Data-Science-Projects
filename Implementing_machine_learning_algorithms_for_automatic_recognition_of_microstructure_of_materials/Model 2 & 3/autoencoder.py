@@ -13,6 +13,7 @@ from keras.callbacks import TensorBoard
 input_img = Input(shape=(128,128,1))
 
 print(input_img.shape)
+#create autoencoder model
 
 x = Conv2D(8, (5, 5), activation='relu', padding="same")(input_img)
 print(x.shape)
@@ -51,14 +52,14 @@ x_test = np.reshape(x_test, (len(x_test), 128,128,1))
 
 autoencoder = Model(input_img, decoded)
 en = Model(input_img, encoded)
-
+#compile model
 autoencoder.compile(optimizer='adadelta', loss='binary_crossentropy')
-
+#fit the model
 autoencoder.fit(x_train, x_train,
                 epochs=50,
                 batch_size=250,
                 shuffle=True,
                 validation_data=(x_test, x_test))
-
+#save the trained encoder and decoder weights so that they can be used as a feature extractor.
 autoencoder.save('model_new.h5')
 en.save('model_en.h5')
