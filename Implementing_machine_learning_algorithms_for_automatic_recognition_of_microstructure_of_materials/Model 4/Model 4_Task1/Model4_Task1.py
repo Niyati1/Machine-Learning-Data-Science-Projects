@@ -23,16 +23,19 @@ k_fold = kfold.split(X, Y)
 cvscores = []
 Y = to_categorical(Y, num_classes=11)
 for train, test in k_fold:
-    
+    #create model
     model = Sequential()
     model.add(Dense(200, input_dim=2048, activation='relu'))
     model.add(Dense(11,activation='softmax'))
-    
+    #compile model
     adam = optimizers.Adam(lr= 0.0001, beta_1=0.9, beta_2=0.999, epsilon=2e-11, decay=0.0, amsgrad=False)
     model.compile(loss='categorical_crossentropy', optimizer=adam, metrics=['accuracy'])
+    #fit model
     model.fit(X[train], Y[train], epochs=500, batch_size=100, validation_split=0.1, verbose=2)
+    #evaluate model
     scores = model.evaluate(X[test], Y[test], verbose=2) 
     print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
     cvscores.append(scores[1] * 100)
+#save the trained model    
 model.save('model.h5')
 print("%.2f%% (+/- %.2f%%)" % (numpy.mean(cvscores), numpy.std(cvscores)))
