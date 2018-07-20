@@ -1,4 +1,5 @@
-from descriptor import Descriptor
+#import necessary libraries
+import Descriptor
 import argparse
 import glob
 import cv2
@@ -11,7 +12,7 @@ args = vars(ap.parse_args())
 cd = Descriptor((8, 12, 3))
 
 output = open(args["index"], "w")
-
+#this code creates a csv file having info about histograms of all the microstructures in a given folder
 for imagePath in glob.glob(args["dataset"] + "/*.png"):
     imageID = imagePath[imagePath.rfind("/") + 1:]
     image = cv2.imread(imagePath)
