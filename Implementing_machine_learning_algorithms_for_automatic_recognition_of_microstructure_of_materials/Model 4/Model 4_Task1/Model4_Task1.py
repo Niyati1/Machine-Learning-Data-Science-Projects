@@ -37,5 +37,5 @@ for train, test in k_fold:
     print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
     cvscores.append(scores[1] * 100)
 #save the trained model    
-model.save('model.h5')
+model.save('Model4_Task1.h5')
 print("%.2f%% (+/- %.2f%%)" % (numpy.mean(cvscores), numpy.std(cvscores)))
