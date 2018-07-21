@@ -2,7 +2,7 @@
 # Thesis-Machine-learning-algorithms-for-microstructure-of-materials
 Implementing Machine Learning Algorithms to Automate Identification of Material Microstructures
 
-This thesis implements various machine learning techniques for identifying the type of material from its microstructure (Task 1) and classifying the microstructure into more general category of ferrous/non-ferrous/others (Task 2). Material microstructures from ASM micrographs database and DoITPoMS library was used for training and testing.
+This project implements various machine learning techniques for identifying the type of material from its microstructure (Task 1) and classifying the microstructure into more general category of ferrous/non-ferrous/others (Task 2). Material microstructures from ASM micrographs database and DoITPoMS library was used for training and testing.
 
 All the models build in this thesis had a different feature extraction technique, to reduce the dimension of input data. These reduced features were then connected to few hidden layers and classified.
 
