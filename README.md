@@ -10,9 +10,9 @@ This reporsitory contains various machine learning projects implemented in eithe
     - **Machine Learning Library used:**  numpy, keras, cv2, skimage, pandas, sklearn.
     
 2. Convolutional Neural Network for digits classification:
-    - **Project name:** CNN_Tensorflow_MNIST
+    - **Project name:** CNN-ObjectDetection-MNIST-Dataset
     - **Dataset used:** MNIST 
     - **Programming Language:** Python
-    - **Machine Learning techniques used:** Convolutional Layer, Max Pooling Layer, Dropout layer, Softmax layer, classification
-    - **Machine Learning Libraries used:** numpy, tensorflow 
+    - **Machine Learning techniques used:** Convolutional Layer, Max Pooling Layer, Dropout layer, Softmax layer, classification, object detection
+    - **Machine Learning Libraries used:** numpy, tensorflow, cv2, matplotlib, scipy, skimage
     
