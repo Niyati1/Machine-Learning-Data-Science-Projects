@@ -22,3 +22,10 @@ This reporsitory contains various machine learning projects implemented in eithe
     - **Programming Language:** R
     - **Machine Learning techniques used:** Classification, SVM
     - **Machine Learning Libraries used:** e1071
+
+4. Implement cross validation and bootstrap training method:
+    - **Project name:** Classifying and training datasets using cross validation and bootstrapping
+    - **Dataset used:** UCI Car dataset, UCI Wisconsin Breast Cancer Dataset
+    - **Programming Language:** R
+    - **Machine Learning techniques used:** Classification, SVM, Cross Validation, Boothstrap, Confidence Interval
+    - **Machine Learning Libraries used:** e1071
