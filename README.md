@@ -46,5 +46,5 @@ This reporsitory contains various machine learning projects implemented in eithe
     - **Project name:** NN_CIFAR_10
     - **Dataset used:** CIFAR 10
     - **Programming Language:** Python
-    - **Machine Learning Techniques used:** SVM, KNN, Softmax, Two-Layer Neural Network, Stochastic Gradient Descent (SGD)
+    - **Machine Learning Techniques used:** SVM, KNN, Softmax, Two-Layer Neural Network, Stochastic Gradient Descent (SGD), Histogram of Oriented Gradients
     - **Machine Learning Libraries used:** numpy, matplotlib, scipy
