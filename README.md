@@ -42,9 +42,9 @@ This reporsitory contains various machine learning projects implemented in eithe
     - **Dataset used:** TIMIT Dataset
     - **Machind Learning techniques used:** LSTM, RNN
     
-7. Convolutional Neural Network for Image Recognition
-    - **Project name:** CNN_CIFAR_10
+7. Neural Network for Image Recognition
+    - **Project name:** NN_CIFAR_10
     - **Dataset used:** CIFAR 10
     - **Programming Language:** Python
-    - **Machine Learning Techniques used:** SVM, KNN, Softmax, Two-Layer Neural Network
-    - **Machine Learning Libraries used:** numpy, matplotlib
+    - **Machine Learning Techniques used:** SVM, KNN, Softmax, Two-Layer Neural Network, Stochastic Gradient Descent (SGD)
+    - **Machine Learning Libraries used:** numpy, matplotlib, scipy
