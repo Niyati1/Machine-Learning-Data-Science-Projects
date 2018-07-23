@@ -30,9 +30,9 @@ This reporsitory contains various machine learning projects implemented in eithe
     - **Machine Learning techniques used:** Classification, SVM, Cross Validation, Bootstrap, Confidence Interval
     - **Machine Learning Libraries used:** e1071
 
-5. Classification of Abalone datasetL
-    - **Project name:** Classification of Abalone dataset
+5. Regression for Abalone Dataset
+    - **Project name:** Regression for Abalone dataset
     - **Dataset used:** UCI Abalone dataset
     - **Programming Language:** R
-    - **Machine Learning techniques used:** Classification, SVM, Cross Validation , Regression,
+    - **Machine Learning techniques used:** SVM, Cross Validation , Regression,
     - **Machine Learning Libraries used:** e1071, R plot function (to visualize the data)
