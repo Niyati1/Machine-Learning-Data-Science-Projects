@@ -27,5 +27,12 @@ This reporsitory contains various machine learning projects implemented in eithe
     - **Project name:** Classifying and training datasets using cross validation and bootstrapping
     - **Dataset used:** UCI Car dataset, UCI Wisconsin Breast Cancer Dataset
     - **Programming Language:** R
-    - **Machine Learning techniques used:** Classification, SVM, Cross Validation, Boothstrap, Confidence Interval
+    - **Machine Learning techniques used:** Classification, SVM, Cross Validation, Bootstrap, Confidence Interval
     - **Machine Learning Libraries used:** e1071
+
+5. Classification of Abalone datasetL
+    - **Project name:** Classification of Abalone dataset
+    - **Dataset used:** UCI Abalone dataset
+    - **Programming Language:** R
+    - **Machine Learning techniques used:** Classification, SVM, Cross Validation , Regression,
+    - **Machine Learning Libraries used:** e1071, R plot function (to visualize the data)
