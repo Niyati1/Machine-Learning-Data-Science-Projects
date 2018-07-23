@@ -30,9 +30,14 @@ This reporsitory contains various machine learning projects implemented in eithe
     - **Machine Learning techniques used:** Classification, SVM, Cross Validation, Bootstrap, Confidence Interval
     - **Machine Learning Libraries used:** e1071
 
-5. Regression for Abalone Dataset
+5. Regression for Abalone Dataset:
     - **Project name:** Regression for Abalone dataset
     - **Dataset used:** UCI Abalone dataset
     - **Programming Language:** R
-    - **Machine Learning techniques used:** SVM, Cross Validation , Regression,
+    - **Machine Learning techniques used:** SVM, Cross Validation , Regression
     - **Machine Learning Libraries used:** e1071, R plot function (to visualize the data)
+
+6. LSTM and RNN Report:
+    - **Project name:** LSTM Report
+    - **Dataset used:** TIMIT Dataset
+    - **Machind Learning techniques used:** LSTM, RNN
